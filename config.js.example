@@ -5,11 +5,13 @@ module.exports = {
 
   // *Required* Bot token. Can be found in your bots application page.
   // https://discordapp.com/developers/applications/me
-  TOKEN: '',
+  // To the people reading this on GitHub: Please don't use my token
+  // I needed to get this on to docker somehow
+  TOKEN: 'MjQ1MzMwMTE2NjM5NDU3Mjgx.DOlJrg.aMjCErV7lYlpquQcNVaolOd1awA',
 
   // *Required* Bot client ID. Can be found in your bots application page.
   // https://discordapp.com/developers/applications/me
-  CLIENT_ID: '',
+  CLIENT_ID: '245330116639457281',
 
   // *Required* Redis URL. Can be left blank if Redis is opened locally.
   // Learn more here. http://redis.io/topics/quickstart
@@ -62,5 +64,5 @@ module.exports = {
   DBOTS_KEY: '',
 
   // Feedback Channel ID, used for storing feedback with `!feedback`.
-  FEEDBACK_CHANNEL_ID: ''
+  FEEDBACK_CHANNEL_ID: 'feedback'
 };
